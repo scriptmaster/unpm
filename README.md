@@ -1,12 +1,12 @@
-# unpm
+# unpm 🎉
 Univeral-modules package manager, alternative to npm (yarn, pnpm, etc.)
 
 Only need node and unpm.mjs file installed in your path.
 
-## No more 400MB to 10GB node_modules
+## Ultra-Lightweight: No more 400MB to 10GB node_modules 🤯
 
++ Everything from KBs to 2MB to 99MB (max).  React+ReactDOM = 200KB node_modules 🤯
 + node_modules is no more the heaviest object in the universe.
-+ Everything from 2MB to 99MB (max)
 + Universal-modules package manager maintains lightweight node_modules folder.
 + Thanks to the umd formats published by npm packages
 
