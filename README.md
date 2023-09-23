@@ -1,7 +1,7 @@
 # unpm
-Univeral-modules package manager, alternative to npm
+Univeral-modules package manager, alternative to npm (yarn, pnpm, etc.)
 
-Only need node and this file. UMD alternative to: npm, yarn, pnpm
+Only need node and unpm.mjs file installed in your path.
 
 ## No more 400MB to 10GB node_modules
 
