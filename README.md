@@ -32,4 +32,6 @@ Packages are resolved from https://unpkg.com/
 `https://unpkg.com/${name}@${versionOrLatest}/${umdOrDist}/${nameOrIndex}${productionMin}.${jsOrMjsOrCjs}`
 ```
 
-Backwards compatibility with .cjs files
+## Want security audits and security teams to pass your code-base?
+
+Create and specify custom registry with import_map.json and custom cdn specification.
