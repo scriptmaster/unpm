@@ -35,3 +35,8 @@ Packages are resolved from https://unpkg.com/
 ## Want security audits and security teams to pass your code-base?
 
 Create and specify custom registry with import_map.json and custom cdn specification.
+
+## Wanted to always ensure cicd builds are fast?
+For CICD / staging environments, now you can push node_modules folder along with your src/ it has become so lightweight!!
+
+No more waiting time for npm i to finish in test-runs and builds.
