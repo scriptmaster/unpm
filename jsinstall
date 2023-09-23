@@ -1,0 +1,2 @@
+# copy this file to your ~/bin/ and ensure that dir is in your $PATH
+node -e "(function main(args){ if(!args[1]) return console.error('specify file path to install'); const a=args[1]; console.log('Install', a); if(!fs.existsSync(a))return console.log('No such file:', a); const b=path.resolve(a); const d='exec node '+b+' \"\$@\"'; const f=path.resolve(process.env.HOME+'/bin/'+path.basename(a,path.extname(a))); fs.writeFileSync(f, d, {encoding: 'utf8'}); child_process.exec('chmod +x '+f); })(process.argv)" "$@"
